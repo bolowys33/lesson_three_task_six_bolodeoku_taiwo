@@ -1,53 +1,73 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+nav {
+    min-height: 100px;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+#hero {
+    background-color: #080808;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-body {
-	line-height: 1;
-	width: 100%;
+#projects,
+#contact,
+#hero {
+    margin-top: 80px;
 }
 
-ol, ul {
-	list-style: none;
+.img-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
 }
 
-blockquote, q {
-	quotes: none;
+.btn a{
+	color: #f1f1f1;
 }
 
-blockquote::before, blockquote::after,
-q::before, q::after {
-	content: '';
-	content: none;
+.btn a:hover{
+	color: #f1f1f1;
+	text-decoration: none;
+	transform: scale(1.1);
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+a.fa {
+    font-size: 30px;
 }
 
-/* Do not write a css rule above here! Use the space below  */
+a.fa:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
 
+a.fa-whatsapp {
+    color: #25d366;
+}
 
-/* Write your css below here */
+a.fa-github {
+    color: #24292f;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (width <= 767px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}

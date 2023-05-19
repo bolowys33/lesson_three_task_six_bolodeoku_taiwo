@@ -1,15 +1,30 @@
-##This is a project template for LMTechub students.
-##Few steps to get started
-- Clone the repository in the created folder for your project using: "git clone <repo_link> ./"
-- Run rm -fr .git to destroy any previous git connection with the cloned remote repo
-- From the terminal in your project folder, run the command "npm install" (You should see a generated node_modules folder)
-- create a new branch feature using "git branch feature" then check out to the branch
-- MAKE SURE YOU DO NOT COMMIT TO THE MAIN BRANCH
-- Follow the project layout in adding your HTML, CSS AND Images to the project
-- To test your lint check for HTML run "npm run lint:html"
-- To test your lint check for CSS run "npm run lint:css"
-- To test your lint check for all files (both HTML and CSS) run "npm run lint:all"
-- To fix your lint error/warnings for css files run "npm run fix:lint:css"
-- Only when your HTML and CSS lint check is completed, get started to git, link to your remote repository, commit changes, push changes. 
-- After changes have been pushed, make a pull request between the feature branch and the main branch.
-- Submit your code (REPOSITORY URL) through our channel on Slack.
+# Lesson Three Task Six
+## How to run/test this project
+- Ensure you have git installed properly on your machine
+- Ensure you have node js installed in your machine
+- Open your terminal and run "git clone lesson_three_task_six_bolodeoku_taiwo"
+- Run "npm install"
+- Run "npm run lint:all" to run all lint error, "npm run lint:css" for css error check and "npm run lint:html" for html error check
+## Design Choice & Build Process
+### Design Choices
+1. Responsive Layout: I chose to use Bootstrap to ensure that the portfolio website is responsive and looks good on various devices and screen sizes.
+2. Minimalistic Design: I opted for a clean and minimalistic design to keep the focus on the content and showcase the portfolio items effectively.
+3. Navbar Navigation: I included a navigation bar at the top of each page to allow easy navigation between different pages of the website.
+4. Section Structure: I divided the website into separate webpages such as Home, My Works, and Contact for better organization and clarity.
+5. Grid System: I used Bootstrap's grid system to create responsive and flexible layouts for different screen sizes.
+6. Card Component: I utilized Bootstrap's card component to display the projects in a visually appealing manner.
+### Building Process
+1. Setting up the HTML Structure: I started by creating the basic HTML structure for each page, including the necessary Bootstrap v4.3 links.
+2. Navbar: I added a navigation bar to each page and configured the links to navigate to the respective pages.
+3. Section Styling: I styled each section individually, using custom CSS to achieve the desired look and feel.
+4. Content Integration: I added the relevant content, images, and text to each section, ensuring they are properly placed and formatted.
+5. Responsive Design: I tested the website on different screen sizes and made adjustments to ensure it looks good and functions well on various devices.
+## Acknowledgement
+- Mr Tony Dilibe
+- Mrs Ngozi
+- Mr Ekene
+- Mr Johnson Promise (JP)
+- Mr Patrick
+## Live Site
+Click [Here](https://bolowys33.github.io/lesson_three_task_six_bolodeoku_taiwo) to view that live site
+## This is a work of LM TechHub.
